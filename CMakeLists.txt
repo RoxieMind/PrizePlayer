@@ -7,7 +7,7 @@ list(APPEND CMAKE_MODULE_PATH ${CMAKE_CURRENT_SOURCE_DIR}/cmake)
    	 
 # Create an executable
 add_executable(${PROJECT_NAME}
-    main/main.cpp
+    src/main.cpp
 )
 
 # Find our pre-installed DPP package (using FindDPP.cmake).
